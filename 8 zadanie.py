@@ -12,6 +12,7 @@ def a(N, dist, dengi):
             if cost < min_cost:
                 min_cost = cost
                 min_taxi = j + 1
+ # добавляем номер такси в список и увеличиваем суммарные затраты
         taxi_n.append(min_taxi)
         total_cost += min_cost
 
@@ -32,6 +33,7 @@ print("Введите тарифы за проезд в такси:")
 for i in range(N):
     rate = int(input())
     dengi.append(rate)
+# вызываем функцию для расчета результата
 taxi_n, total_cost = a(N, dist, dengi)
 print("Номера такси для каждого сотрудника: ", taxi_n)
 print("Суммарные затраты на такси: {} рублей".format(total_cost))
