@@ -1,4 +1,5 @@
-def a(N, dist, dengi):
+def a(dist, dengi):
+    N = len(dist)
     taxi_n = []
     total_cost = 0
 
@@ -8,13 +9,13 @@ def a(N, dist, dengi):
         min_taxi = -1
  # проверяем все такси и находим тариф с минимальными затратами для сотрудника
         for j in range(N):
-            cost = dist[i] * dengi[j]
-            if cost < min_cost:
-                min_cost = cost
-                min_taxi = j + 1
+            if dengi[j] < min_cost:
+                min_cost = dengi[j]
+                min_taxi = j
  # добавляем номер такси в список и увеличиваем суммарные затраты
-        taxi_n.append(min_taxi)
-        total_cost += min_cost
+        taxi_n.append(min_taxi + 1)
+        total_cost += min_cost * dist[i]
+        dengi[min_taxi] = float('inf')
 
     return taxi_n, total_cost
 
