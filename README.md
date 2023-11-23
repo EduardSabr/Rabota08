@@ -13,5 +13,5 @@
 # Инструкция по работе
 Скачать код в GitHub под названием '8 zadanie.py'. Запустить код. Вводим N (любое) кол-во сотрудников, далее вводим это же число (N) чисел для задающих расстояния от работы до домов в км и еще N чисел - тарифы в рублях. Выводятся номера такси, где суммарные затраты были минимальны. И суммируется вариант где наиболее минимальные затраты по тарифу.
 # Результаты тестирования
-![Alt-текст](https://github.com/EduardSabr/Rabota08/blob/main/%D1%84%D0%BE%D1%82%D0%BE%201.jpg?raw=true)
-![Alt-текст](https://github.com/EduardSabr/Rabota08/blob/main/%D1%84%D0%BE%D1%82%D0%BE%202.jpg?raw=true)
+![Alt-текст](https://github.com/EduardSabr/Rabota08/blob/main/1%20%D1%84%D0%BE%D1%82%D0%BE.jpg?raw=true)
+![Alt-текст](https://github.com/EduardSabr/Rabota08/blob/main/2%20%D1%84%D0%BE%D1%82%D0%BE.jpg?raw=true)
