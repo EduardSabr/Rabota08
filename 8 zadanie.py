@@ -1,5 +1,4 @@
-def a(dist, dengi):
-    N = len(dist)
+def a(N, dist, dengi):
     taxi_n = []
     total_cost = 0
 
